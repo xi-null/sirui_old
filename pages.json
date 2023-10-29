@@ -1,18 +1,11 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-	
 	{
 		"path": "pages/index/index",
 			
 		"style": {
 			"navigationBarTitleText": "赛事回放",
 			"enablePullDownRefresh": true
-		
-			
-			
-							
-		
-			
 		}
 	
 	},{
@@ -24,7 +17,6 @@
 		}
 	
 	},
-	
 	 {
 			"path": "pages/now/now",
 			"style": {
@@ -221,6 +213,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/highLight/highLight",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"permission": {
 		"scope.userLocation": {
@@ -271,5 +272,6 @@
 	},
 
 
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	"lazyCodeLoading": "requiredComponents"
 }
